@@ -1,6 +1,9 @@
 # Koulutyö
-| Sarake 1 | Sarake 2 | Sarake 3 |
+
+| Yksi | Kaksi | Kolme |
 |-|-|-|
-| Rivi 1   | Data 1   | Data 2   |
-| Rivi 2   | Data 3   | Data 4   |
-| Rivi 3   | Data 5   | Data 6   |
+| One | Two | Three |
+
+1. Ensimmäinen
+2. Toinen
+3. Kolmas
