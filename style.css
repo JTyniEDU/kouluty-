@@ -21,9 +21,11 @@ body {
     width: 80%;
 }
 #wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly; 
 }
 #testailua {
     border: green;
