@@ -27,7 +27,7 @@ for (let i = 0; i < asiat.length; i++) {
 
 document.getElementById("asia").innerHTML = asiateksti;
 
-function outputNames() {
+function opn() {
 let etunimi = document.getElementById('etunimi');
 let sukunimi = document.getElementById('sukunimi');
 
