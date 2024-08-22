@@ -20,6 +20,15 @@ body {
 #hr1 {
     width: 80%;
 }
+#testailua {
+    border: green;
+    border-color: green;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: dashed;
+    background-color: darkblue;
+    color: white;
+}
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
