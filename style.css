@@ -28,6 +28,8 @@ body {
     border-style: dashed;
     background-color: darkblue;
     color: white;
+    width: 50vw;
+    height: 10vh;
 }
 .poppins-thin {
     font-family: "Poppins", sans-serif;
