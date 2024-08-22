@@ -17,3 +17,12 @@ do {
 while (loopkerrat < 5);
 
 document.getElementById("loop").innerHTML = loopteksti;
+
+const asiat = ["Koira", "Kissa", "Hevonen", "Hiiri", "Marsu"];
+let asiateksti = "";
+
+for (let i = 0; i < asiat.length; i++) {
+   asiateksti += asiat[i] + "<br>";
+}
+
+document.getElementById("asia").innerHTML = asiateksti;
