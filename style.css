@@ -20,6 +20,11 @@ body {
 #hr1 {
     width: 80%;
 }
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
 #testailua {
     border: green;
     border-color: green;
@@ -36,7 +41,9 @@ body {
 #testailua:hover {
     border-radius: 10px;
 }
-
+a {
+    color: lightblue;
+}
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;

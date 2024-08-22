@@ -15,9 +15,11 @@
         <h3>Mitä case sensitive tarkoittaa?</h3>
         <p>Case sensitive tarkoittaa onko merkit ISOLLA vai pienellä. Koodieditorissa Case Sensitiveä voidaan käyttää tietyn elementin etsimiseen (Elementti, ei elementti).</p>
         <br>
+        <div id="wrapper">
         <h1>Otsikko 1</h1>
         <h1>Otsikko 2</h1>
         <h1>Otsikko 3</h1>
+        </div>
         <br>
         <p>Paragraph täynnä tekstiä.. yksi kaksi kolme</p>
         <br>
@@ -50,7 +52,16 @@
         <input type="submit" value="Lähetä">
       </form> 
       <br>
+      <div id="wrapper">
       <button onclick="document.getElementById('fbody').style='color: red;'">Vaihda sivun tekstin väriä punaiseksi</button>
       <button onclick="document.getElementById('fbody').style='color: antiquewhite;'">Tai vaihda se takaisin</button>
+      </div>
+      <br>
+      <button onclick="document.getElementById('kuva').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIxeNFO8PSlvOvudmrtLIOYdTpN6o77VKolQ&s'">Vaihda kuvaa</button>
+      <!-- Kommentti -->
+       <p><strong>Var</strong> on vanha versio joka tukee vanhoja selainversioita.</p>
+       <p><strong>Let</strong> variablet tukee arvon vaihtoa.</p>
+       <p><strong>Const</strong> variableille pitää antaa luku samalla kun ne luodaan.</p>
     </body>
+    <script src="script.js"></script>
 </html>
