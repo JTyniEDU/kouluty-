@@ -26,3 +26,14 @@ for (let i = 0; i < asiat.length; i++) {
 }
 
 document.getElementById("asia").innerHTML = asiateksti;
+
+function outputNames() {
+let etunimi = document.getElementById('etunimi');
+let sukunimi = document.getElementById('sukunimi');
+
+let etunimivalue = etunimi.value;
+let sukunimivalue = sukunimi.value;
+
+let opd = document.getElementById("op");
+opd.innerHTML = "Hei " + etunimivalue + sukunimivalue;
+}
