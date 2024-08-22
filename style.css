@@ -17,6 +17,9 @@ body {
    width: 100px;
    height: auto;
 }
+#hr1 {
+    width: 80%;
+}
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
