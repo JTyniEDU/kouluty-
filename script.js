@@ -7,7 +7,7 @@ if (luku < 18) {
 }
 document.getElementById("ika").innerHTML = output;
 
-let loopkerrat = 5;
+let loopkerrat = 0;
 let loopteksti = "";
 
 do {
