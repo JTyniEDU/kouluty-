@@ -207,3 +207,11 @@ a {
   .d50 {
     width: 50%;
   }
+
+  .merkinta {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #FA7DB1;
+  }
