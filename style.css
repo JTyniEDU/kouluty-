@@ -225,3 +225,11 @@ a {
   #tietobtn {
     margin-top: 10px;
   }
+
+  .field {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #F8E7FD;
+  }
