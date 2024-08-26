@@ -162,3 +162,8 @@ a {
   .rounded {
     border-radius: 25px;
   }
+
+  .header {
+    width: 100%;
+    background-color: #FA7DB1;
+  }
