@@ -184,6 +184,7 @@ a {
     padding-bottom: 5px;
     color: white;
     border: none;
+    padding: 10px;
   }
 
   .header {
@@ -205,7 +206,7 @@ a {
   }
 
   .d50 {
-    width: 50%;
+    width: 75%;
   }
 
   .merkinta {
