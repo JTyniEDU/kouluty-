@@ -13,6 +13,23 @@
     color: antiquewhite;
     min-height: 100vh;
 }
+
+#pbody {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #0A4A77;
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: "Poppins", sans-serif;
+   color: antiquewhite;
+   min-height: 100vh;
+}
+
 #kuva {
    width: 100px;
    height: auto;
