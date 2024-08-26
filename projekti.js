@@ -1,7 +1,5 @@
 function tieto() {
-if (document.getElementById("tieto1") && document.getElementById("tieto2") != null) {
-    document.write("Täytä kaikki kentät")
-} else {
-    console.log("Tieto on ok!")
-}
-}
+    var x = document.getElementById("alert");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+  }
