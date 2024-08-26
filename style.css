@@ -178,6 +178,10 @@ a {
 
   .rounded {
     border-radius: 25px;
+    background-color: #332C2C;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
   .header {
