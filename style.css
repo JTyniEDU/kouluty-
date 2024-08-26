@@ -154,3 +154,11 @@ a {
     font-style: italic;
   }
   
+  #div1 {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .rounded {
+    border-radius: 25px;
+  }
