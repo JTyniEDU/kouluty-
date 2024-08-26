@@ -229,7 +229,9 @@ a {
   .field {
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-top: 5px;
     background-color: #F8E7FD;
+    padding: 5px;
+    color: black;
   }
