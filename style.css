@@ -184,3 +184,8 @@ a {
     width: 100%;
     background-color: #FA7DB1;
   }
+
+  .fw {
+    width: 100%;
+    height: auto;
+  }
