@@ -177,7 +177,7 @@ a {
   }
 
   .rounded {
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: #332C2C;
     width: 100%;
     padding-top: 5px;
@@ -210,9 +210,13 @@ a {
 
   .merkinta {
     margin-top: 20px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     background: #FA7DB1;
+  }
+
+  .inputfield {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 15px;
   }
