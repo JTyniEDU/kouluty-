@@ -1,16 +1,11 @@
-document.getElementById("tietobtn").addEventListener("click", tieto);
-
 function tieto() {
   var tieto1 = document.getElementById("tieto1");
   var tieto2 = document.getElementById("tieto2");
   var tietobtn = document.getElementById("tietobtn");
   var varoitus = document.getElementById("varoitus");
-  var tietoa = document.getElementById("tietoa");
 
   varoitus.style.visibility = "hidden";
   varoitus.innerHTML = "";
-  tietoa.style.visibility = "hidden";
-  tietoa.innerHTML = "";
 
   if (tieto1.value.trim() === "" || tieto2.value.trim() === "") {
     tietobtn.style.backgroundColor = "red";
@@ -28,7 +23,5 @@ function tieto() {
     console.log("Tieto 2: " + tieto2.value);
     tietobtn.style.backgroundColor = "#332C2C";
     tietobtn.innerHTML = "Lisää tieto";
-    tietoa.style.visibility = "visible";
-    tietoa.innerHTML += "123";
   }
 }
