@@ -1,3 +1,5 @@
+document.getElementById("tietobtn").addEventListener("click", tieto);
+
 function tieto() {
   var tieto1 = document.getElementById("tieto1");
   var tieto2 = document.getElementById("tieto2");
@@ -30,5 +32,3 @@ function tieto() {
     tietoa.innerHTML += "123";
   }
 }
-
-// fix
