@@ -7,20 +7,17 @@ function tieto() {
   varoitus.style.visibility = "hidden";
   varoitus.innerHTML = "";
 
-  if (tieto1.value.trim() === "") {
-    console.log("Tyhjä input 1");
+  if (tieto1.value.trim() === "" || tieto2.value.trim() === "") {
     tietobtn.style.backgroundColor = "red";
+    tietobtn.innerHTML += "Virhe! En lisännyt tietoa.";
     setTimeout(function() {
       varoitus.style.visibility = "visible";
-      varoitus.innerHTML += "Täytä kenttä 1!";
+      varoitus.innerHTML += "Täytä kaikki kentät";
     }, 0);
     setTimeout(function() {
       varoitus.style.visibility = "hidden";
       varoitus.innerHTML = "";
     }, 3000);
-  } else if (tieto2.value.trim() === "") {
-    console.log("Tyhjä input 2");
-    tietobtn.style.backgroundColor = "red";
   } else {
     console.log("Tieto 1: " + tieto1.value);
     console.log("Tieto 2: " + tieto2.value);

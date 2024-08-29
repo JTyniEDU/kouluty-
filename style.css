@@ -241,10 +241,12 @@ a {
   }
 
   #varoitus {
+    width: 100%;
     visibility: hidden;
-    color: red;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    color: white;
+    background-color: #A00707;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   @-webkit-keyframes fadein {
