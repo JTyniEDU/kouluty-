@@ -2,7 +2,7 @@ function tieto() {
   var tieto1 = document.getElementById("tieto1");
   var tieto2 = document.getElementById("tieto2");
   var tietobtn = document.getElementById("tietobtn");
-  var varoitus = document.getElementById("varoitus");1
+  var varoitus = document.getElementById("varoitus");
 
   varoitus.style.visibility = "hidden";
   varoitus.innerHTML = "";
