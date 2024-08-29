@@ -249,6 +249,16 @@ a {
     margin-right: 20px;
     padding: 5px;
   }
+
+  #tietoa {
+    width: auto;
+    visibility: hidden;
+    color: black;
+    background-color: #F8E7FD;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px; 
+  }
   
   @-webkit-keyframes fadein {
     from {bottom: 0; opacity: 0;} 
