@@ -26,6 +26,7 @@ function tieto() {
     console.log("Tieto 2: " + tieto2.value);
     tietobtn.style.backgroundColor = "#332C2C";
     tietobtn.innerHTML = "Lisää tieto";
+    tietoa.style.visibility = "visible";
     tietoa.innerHTML = (tieto1.value + tieto2.value);
   }
 }
