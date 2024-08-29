@@ -1,8 +1,8 @@
 function tieto() {
   var tieto1Element = document.getElementById("tieto1");
   if (tieto1Element.value.trim() === "") {
-      console.log("NULL!");
+      console.log("Tyhjä input");
   } else {
-      console.log("Value is: " + tieto1Element.value);
+      console.log("Tieto 1: " + tieto1Element.value);
   }
 }
