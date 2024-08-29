@@ -17,7 +17,7 @@ function tieto() {
     tietobtn.innerHTML = "Virhe! En lisännyt tietoa.";
     setTimeout(function() {
       varoitus.style.visibility = "visible";
-      varoitus.innerHTML += "Täytä kaikki kentät";
+      varoitus.innerHTML = "Täytä kaikki kentät";
     }, 0);
     setTimeout(function() {
       varoitus.style.visibility = "hidden";
