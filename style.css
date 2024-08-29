@@ -241,12 +241,13 @@ a {
   }
 
   #varoitus {
-    width: 100%;
+    width: auto;
     visibility: hidden;
     color: white;
     background-color: #A00707;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 5px;
   }
   
   @-webkit-keyframes fadein {
