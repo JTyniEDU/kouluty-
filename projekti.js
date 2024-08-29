@@ -13,6 +13,10 @@ function tieto() {
     setTimeout(function() {
       varoitus.style.visibility = "visible";
       varoitus.innerHTML += "Täytä kenttä 1!";
+    }, 0);
+    setTimeout(function() {
+      varoitus.style.visibility = "hidden";
+      varoitus.innerHTML = "";
     }, 3000);
   } else if (tieto2.value.trim() === "") {
     console.log("Tyhjä input 2");
