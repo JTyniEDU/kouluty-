@@ -1,12 +1,14 @@
 function tieto() {
   var tieto1 = document.getElementById("tieto1");
   var tieto2 = document.getElementById("tieto2");
+  var tietobtn = document.getElementById("tietobtn");
   var varoitus = document.getElementById("variotus");
   if (tieto1.value.trim() === "") {
       console.log("Tyhjä input 1");
-      document.getElementById("tietobtn").style.backgroundColor = "red";
+      tietobtn.style.backgroundColor = "red";
       setTimeout(function() {
-        document.getElementById("varoitus").style.visibility = "visible";
+        varoitus.style.visibility = "visible";
+        varoitus.innerHTML += "Täytä kenttä 1!";
       }, 3000 );
   } else if (tieto2.value.trim() === "") {
     console.log("Tyhjä input 2");
