@@ -29,6 +29,10 @@ function tieto() {
     tietobtn.style.backgroundColor = "#332C2C";
     tietobtn.innerHTML = "Lisää tieto";
     tietoa.style.visibility = "visible";
-    tietoa.innerHTML += (tieto1.value + " " + tieto2.value);
+    tietoa.innerHTML += (tieto1.value + ": " + tieto2.value);
   }
+}
+
+function kurssi() {
+  var checkbox = document.getElementById("suoritus");
 }
