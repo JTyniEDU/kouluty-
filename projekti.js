@@ -30,3 +30,5 @@ function tieto() {
     tietoa.innerHTML += (tieto1.value + tieto2.value);
   }
 }
+
+// fix
