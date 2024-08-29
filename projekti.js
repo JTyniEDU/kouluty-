@@ -8,6 +8,7 @@ function tieto() {
     console.log("Tyhjä input 2");
     document.getElementById("tietobtn").style.backgroundColor = "red";
   } else {
-    console.log("Tieto 1: " + tieto1Element.value);
+    console.log("Tieto 1: " + tieto1.value);
+    console.log("Tieto 2: " + tieto2.value)
   }
 }
