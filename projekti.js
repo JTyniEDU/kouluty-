@@ -35,16 +35,20 @@ function tieto() {
 }
 
 function merkkaa() {
-    var checkboxes = document.querySelectorAll('input[name="suoritus"]:checked');
+    var checkboxes = document.querySelectorAll('input[name="suoritus"]');
 
     checkboxes.forEach(function (checkbox) {
         var label = checkbox.nextElementSibling; 
-        if (!label.textContent.includes("tunnit pidetty")) {
-            label.textContent += " tunnit pidetty";
+        if (checkbox.checked) {
+            if (!label.textContent.includes(" tunnit pidetty")) {
+                label.textContent += " tunnit pidetty";
+            }
+        } else {
+            label.textContent = label.textContent.replace(" tunnit pidetty", "");
         }
     });
-
-    if (checkboxes.length === 0) {
+    var checkedBoxes = document.querySelectorAll('input[name="suoritus"]:checked');
+    if (checkedBoxes.length === 0) {
         alert("Ei valittuja suorituksia.");
     }
-} 
+}
