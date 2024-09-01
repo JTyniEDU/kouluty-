@@ -47,4 +47,4 @@ function merkkaa() {
     if (checkboxes.length === 0) {
         alert("Ei valittuja suorituksia.");
     }
-}
+} 
