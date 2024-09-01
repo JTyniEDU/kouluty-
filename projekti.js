@@ -36,11 +36,15 @@ function tieto() {
 
 function merkkaa() {
     var checkboxes = document.querySelectorAll('input[name="suoritus"]:checked');
-    var checkedValues = Array.from(checkboxes).map(cb => cb.value + " tunnit pidetty");
-    
-    if (checkedValues.length > 0) {
-        alert("Merkatut suoritukset: " + checkedValues.join(', '));
-    } else {
+
+    checkboxes.forEach(function (checkbox) {
+        var label = checkbox.nextElementSibling; 
+        if (!label.textContent.includes("tunnit pidetty")) {
+            label.textContent += " tunnit pidetty";
+        }
+    });
+
+    if (checkboxes.length === 0) {
         alert("Ei valittuja suorituksia.");
     }
 }
