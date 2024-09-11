@@ -5,7 +5,7 @@
    -moz-user-select: none;
    -ms-user-select: none;
    user-select: none;
-   background: radial-gradient(#003800, black);
+   background: linear-gradient(#007dc3, #bd09b7);
    background-attachment: fixed;
    display: flex;
     flex-direction: column;
